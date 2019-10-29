@@ -168,9 +168,6 @@ export const ListView = props => {
     );
 };
 
-/**
- * @type {import("react").WeakValidationMap}
- */
 ListView.propTypes = {
     actions: PropTypes.element,
     aside: PropTypes.element,

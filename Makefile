@@ -60,7 +60,7 @@ serve-github-pages: ## Serve the doc from a Github Pages docker container
 # 	@echo "Running prettier..."
 # 	@yarn -s prettier
 
-test: build
+test: build declarations-test
 
 # test-unit: ## launch unit tests
 # 	@if [ "$(CI)" != "true" ]; then \
