@@ -22,5 +22,6 @@ before_install:
 script: make test
 branches:
   only:
+    - without-workaround
     - master
     - next
